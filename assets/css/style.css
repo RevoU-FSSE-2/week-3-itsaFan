@@ -461,6 +461,7 @@ ul {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -597,6 +598,13 @@ ul {
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
 }
+
+input[type="date"], input[type="file"] {
+  font-family: inherit;
+  font-size: 0.9em;
+  color: grey;
+}
+
 
 .submit {
   border: none;

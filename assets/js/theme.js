@@ -9,8 +9,6 @@ modeToggle.addEventListener('click', () => {
   localStorage.setItem('preferredMode', isLight ? 'light' : 'dark');
 });
 
-
-
 const isLightMode = () => body.classList.contains('light-mode');
 const setTheme = () => {
   const root = document.documentElement;
@@ -21,7 +19,6 @@ const setTheme = () => {
   root.style.setProperty('--p-color', theme === 'light' ? '#2e2f3e' : '#a7a9be');
   root.style.setProperty('--navfoot-color', theme === 'light' ? '#eff0f3' : '#0b0b12')
   root.style.setProperty('--nav-li-color', theme === 'light' ? '#0f0e17' : '#fffffe')
-
 };
 
 const preferredMode = localStorage.getItem('preferredMode');

@@ -189,7 +189,7 @@ ul {
     align-items: baseline;
     padding: 1rem 10% 2rem 10%;
     height: 5rem;
-    background-color: #0b0b12;
+    background-color: var(--navfoot-color);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -221,6 +221,7 @@ ul {
 }
 
 .asy-grid img {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -278,6 +279,7 @@ ul {
 }
 
 .flex-item img {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 460px;
   object-fit: cover;
@@ -311,6 +313,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.video-container iframe {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
 }
 
 .form-section {

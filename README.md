@@ -57,7 +57,7 @@ Click here: [Coffee Website V2](https://steffan-revou-week3.netlify.app/)
   </tr>
 </table>
 
-### SEO Result
+### Lighthouse Result
 <p align="center">
   <img src="./assets/imgs/desktop-lighthouse.png" width="800" title="web-img">
 </p>

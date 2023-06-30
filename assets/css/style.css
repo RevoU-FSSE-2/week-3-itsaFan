@@ -45,10 +45,15 @@ ul {
   align-items: baseline;
   padding: 0.5rem 10% 2rem 10%;
   height: 4.5rem;
-  background-color: var(--navfoot-color);
-  position: sticky;
-  position: -webkit-sticky;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+  position: fixed;
   top: 0;
+  z-index: 1000;
+}
+
+.header.scrolled {
+  background-color: var(--navfoot-color);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -356,7 +361,19 @@ ul {
     grid-column: initial;
   }
 }
+@media (min-width: 768px) {
+  .logistics {
+    padding: 1rem;
+    margin: 3rem auto;
+    gap: 3rem;
+    flex-direction: row;
+    align-items: stretch;
+  }
 
+  iframe {
+    max-width: 480px;
+  }
+}
 /* Button */
 .btn {
   text-decoration: none;
@@ -627,20 +644,6 @@ input[type="file"] {
   to {
     transform: scale(1.8);
     opacity: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .logistics {
-    padding: 1rem;
-    margin: 3rem auto;
-    gap: 3rem;
-    flex-direction: row;
-    align-items: stretch;
-  }
-
-  iframe {
-    max-width: 480px;
   }
 }
 

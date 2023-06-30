@@ -50,3 +50,13 @@ closeBtn.addEventListener('click', function () {
 });
 
 
+//
+window.addEventListener("scroll", function() {
+  const navbar = document.getElementsByClassName("header")[0];
+  if (window.scrollY > 0) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+

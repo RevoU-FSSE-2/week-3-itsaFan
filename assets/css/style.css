@@ -347,7 +347,7 @@ ul {
   align-items: center;
 }
 
-.logistics h5 {
+.logistics h2 {
   margin: 0 1rem;
   font-size: 20px;
   font-weight: 900;
@@ -479,7 +479,7 @@ ul {
   text-align: center;
   padding: 1rem 0;
 }
-.footer h4 {
+.footer h3 {
   margin: 1rem auto;
   font-weight: 600px;
   font-size: 21px;

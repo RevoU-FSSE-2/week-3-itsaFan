@@ -13,7 +13,7 @@
 
 ## Brief Description
 
-This website is made for RevoU assignment.
+This website is made for RevoU assignment.<br>
 The purpose for this assignment is to implement responsive design about anything that I like. Since I love coffee and always drink it everyday, then I decided to make the website about coffee. This simple website is an improvement from last week assignment, [click here to visit the previous website](https://steffan-revou-week2.netlify.app/).
 
 ### Added features:
